@@ -380,17 +380,20 @@ img {
 .secondary {
   clear: left;
 }
+
 .skill li {
   font-size: 1.25em;
-  color: #fff;
+  color: #f0f3f5;
  }
+
 .skill p {
    font-size: 1.40em;
-   color: #fff; 
+   color: #f0f3f5; 
    margin: 12px;
  }
+
 .skill h2 {
-  color: #fff;
+  color: #f0f3f5;
 }
 
 .skill {
@@ -399,12 +402,14 @@ img {
   width: 100%;
   text-align: center;
   border-bottom: none;
+  background-color:  #f0f3f5;
   border-radius: 0;
   background-image:  url('../img/wood.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
  }
+
 
 }
 
