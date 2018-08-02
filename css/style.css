@@ -10,7 +10,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 a {
@@ -44,6 +44,7 @@ h2 {
   margin-bottom: .4em;
   background-color: #fff;
   line-height: 1.3;
+  transition: color .7s ease;
 }
 
 .main-nav a:hover {
@@ -95,15 +96,16 @@ body {
   width: 100%;
   margin: 0 auto;
 }
- 
+
 .photo-sec {
-  width: 80%;
-  padding: 2em 0 .8em;
-  margin: 1em;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 }
 
 img {
  width: 90%;
+ border-radius: 10px;
 }
 
 
@@ -262,7 +264,7 @@ p {
 .main-header,
 .main-nave,
 .main-nav li {
-  display: inline-table;  
+  display: inline-table;
 }
 
 
@@ -279,15 +281,7 @@ p {
 
 
 img {
- box-shadow: 10px 15px 20px rgba(0, 0, 0, .5);
-}
-
-
-.photo-sec {
-  width: 35%;
-  padding: 0;
-  margin: 8px 0 0;
-  box-shadow: 10px 15px 10px rgba(0, 0, 0, .5);
+ box-shadow: 0px 5px 12px rgba(0, 0, 0, .5);
 }
 
 
@@ -320,9 +314,9 @@ img {
 }
 
 .portfolio {
-  width: 100%; 
+  width: 100%;
 }
- 
+
 p {
   padding: 0 2em  0;
   line-height: 1.3;
@@ -388,7 +382,7 @@ img {
 
 .skill p {
    font-size: 1.40em;
-   color: #fff; 
+   color: #fff;
    margin: 12px;
  }
 .skill h2 {
@@ -403,7 +397,7 @@ img {
     border-bottom: none;
     background-color: #f0f3f5;
     border-radius: 0;
-    background-image: url(../img/wood.jpg);
+    background-image: url(../img/wall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70%;
@@ -414,7 +408,7 @@ img {
 
 @media (min-width: 1024px) {
 
- 
+
 
  .name,
 .main-nav li {
@@ -480,7 +474,7 @@ img {
  background-color: rgba(0, 0, 0, .0);
  }
 
-.name, 
+.name,
 .main-nav li a {
   color: #eff4ee;
  }
@@ -508,8 +502,7 @@ img {
 
 .main-contact {
   padding: 15px;
-  margin: 20px 0 0;
-  background-color: #252439;
+  background-color: #2b2d31e6;
  }
 
 
@@ -530,7 +523,7 @@ img {
 
 
 .main-footer, .mail, .email, .number, .phone {
-  color: #16b1b5;
+  color: #eff4ee;
  }
 
 
@@ -548,8 +541,8 @@ img {
   margin: 0;
   padding: 0 20px;
   width: 100%;
-  background-color: #16b1b5;
-  border-top: 4px solid #207e89;
+  background-color: #d3962ce3;
+  border-top: 4px solid #b37200;
  }
 
 .footer-nav h3 {
@@ -560,7 +553,7 @@ img {
 }
 
 .nav, .footer-nav {
- display:inline-block; 
+ display:inline-block;
 }
 
 
@@ -573,7 +566,7 @@ img {
    margin-top: 10px;
    padding: 10px;
    color: #f8fdfd;
-   
+   transition: color .7s ease;
  }
 
 
@@ -589,6 +582,19 @@ img {
   top: 0;
   z-index: 30;
  }
+
+
+.profile {
+  padding: 6em 0;
+ }
+
+.photo-sec {
+  width: 207px;
+  height: 207px;
+ }
+
+}
+
 
 
 .profile {
